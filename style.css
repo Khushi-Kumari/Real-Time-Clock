@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+    padding:0px;
+
+}
+img{
+    border:1vw solid black;
+    border-radius: 1000px;
+   width:50%;
+   height:auto;
+}
+
+#img{
+    display:flex;
+    justify-content:center; 
+   /* align-items:center; */
+}
+
+.all{
+    
+    position:relative;
+}
+h1{
+    text-align:center;
+    font-size:8vw;
+    text-decoration: underline;
+}
+#hour,#min,#sec{
+   
+    width:0.8vw;
+    background-color:black;
+    border-radius:5px;
+    position:absolute;
+    transform-origin:bottom;
+}
+#hour{
+    
+    left: 49.45vw;
+    top: 15vw;
+    height: 11vw;
+}
+#min{ 
+    
+    left: 49.45vw;
+    top: 8vw;
+    height: 18vw;
+    
+}
+#sec{
+    background-color:red;
+    left: 49.65vw;
+    top: 3vw;
+    height: 23vw;
+    width:0.4vw;
+    
+}
+    
+
+
